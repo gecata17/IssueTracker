@@ -9,8 +9,9 @@ public class UserService {
 
     private PasswordEncoder pswEncoder;
 
-    public UserService(PasswordEncoder pswEncoder) {
+    public UserService(UserRepository userRepository, PasswordEncoder pswEncoder) {
         this.pswEncoder = pswEncoder;
+        this.userRepository = userRepository;
     }
 
     public void register(User user) {
