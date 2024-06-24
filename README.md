@@ -1,1 +1,1 @@
-# IssueTracker homework 
+# IssueTracker login and signup project development
