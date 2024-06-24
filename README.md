@@ -1,1 +1,1 @@
-# IssueTracker login and signup developed for university project 
+# IssueTracker login and sign-up developed for university project 
